@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.App{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.App{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    height: 20%;
+    background-color: aqua;
+}
+.Navbar{
+    height: 30%;
+    background-color: green;
+}
+.side1{
+    height: 40%;
+    width: 50vw;
+    background-color: bisque;
+    display: flex;
+}
+.side2{
+    height: 40%;
+    width: 50vw;
+    background-color: blue;
+}
+.footer{
+    height: 20%;
+    width: 100vw;
+    background-color: brown;
+}
