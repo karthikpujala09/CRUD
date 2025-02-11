@@ -107,6 +107,45 @@
 //   }
 // }
 
-import React from 'react'
-import FBCPropEx1 from "./propexample/FBCPropEx1"
+// import React from "react";
+// import FBCPropEx1 from "./propexample/FBCPropEx1";
 
+// const App = () => {
+//   return (
+//     <div>
+//       <FBCPropEx1 profiles={["insta", "snap", "facebook"]} />
+//     </div> 
+//   );
+// };
+
+// export default App;
+
+// ! props.children
+// import React from 'react'
+// import Propschildren from './propexample/PropsChildrenex';
+// import SubChildProps from './propexample/SubChildProps';
+
+// const App = () => {
+//   return (
+//     <div>
+//         <Propschildren username="x" company="google">
+//             <h1>This data is passing as a props children to child Component</h1>
+//             <SubChildProps/>
+//         </Propschildren>
+//     </div>
+//   )
+// }
+
+// export default App
+import React from 'react'
+import UseEffectEx from './hookexample/UseEffectEx'
+
+const App = () => {
+  return (
+    <div className="App" >
+      <h1>React useEffect Example</h1>
+      <UseEffectEx/>
+    </div>
+  )
+}
+export default App;

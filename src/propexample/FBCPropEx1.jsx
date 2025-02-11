@@ -1,12 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const FBCPropEx1 = (props) => {
-    if(props.isLoggedIn == true){
-        return(
-            <h1>Welcome {props.username}</h1>
+const FBCPropEx1 = ({ isLoggedIn, username }) => {
+  return (
+    <div>
+      {isLoggedIn ? <h1>Welcome, {username}!</h1> : <h1>Please Login First!</h1>}
+    </div>
+  );
+};
 
-        )
-    }else{
-        return <h1>Please Login First!</h1>
-    }
-}
+export default FBCPropEx1;
