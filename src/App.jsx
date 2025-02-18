@@ -48,3 +48,17 @@
 // }
 
 // export default App
+
+import React from 'react'
+import BookContainer from './redux/reduxcomp/BookContainer'
+import {Provider} from 'react-redux';
+import store from './redux/store';
+
+const App = () => {
+  return (
+    <Provider store={store}>
+      <BookContainer/>
+    </Provider>
+  )
+}
+export default App
